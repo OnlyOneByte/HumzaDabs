@@ -1,11 +1,11 @@
-div {
+/* div {
     background:url('/images/dab.gif') repeat;
     height: 500px;
-  }
+  } */
   
   span {
-    width: 400px;
-    height: 400px;
+    width: 630px;
+    height: 640px;
     display: block;
     background:url('/images/dab.gif') repeat-x left;
   }
