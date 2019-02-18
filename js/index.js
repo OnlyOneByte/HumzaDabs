@@ -22,7 +22,7 @@ let numDabs = 0;
 // Start listening to resize events and draw canvas.
 initialize();
 
-
+// does the interval
 setInterval(calculateDab, secondsPerDab*1000);
 
 
@@ -40,9 +40,6 @@ function calculateDab() {
     redraw();
 
 }
-
-
-
 
 
 
@@ -69,7 +66,7 @@ function redraw() {
     context.fillText("Welcome to Hamza Dabs!", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
     context.fillStyle = "#000000";
     context.font = "18px Arial";
-    context.fillText("Number of dabs: " + numDabs, window.innerWidth / 2 - width / 2 + 90, spacerFromTop + 75);
+    context.fillText("Number of dabs: " + numDabs, window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 75);
 
 }
 
