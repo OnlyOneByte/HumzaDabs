@@ -1,0 +1,11 @@
+div {
+    background:url('/resources/dab.gif') repeat;
+    height: 500px;
+  }
+  
+  span {
+    width: 108px;
+    height: 18px;
+    display: block;
+    background:url('/resources/dab.gif') repeat-x left;
+  }
