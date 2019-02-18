@@ -1,5 +1,5 @@
 div {
-    background:url('/resources/dab.gif') repeat;
+    background:url('/images/dab.gif') repeat;
     height: 500px;
   }
   
@@ -7,5 +7,5 @@ div {
     width: 400px;
     height: 400px;
     display: block;
-    background:url('/resources/dab.gif') repeat-x left;
+    background:url('/images/dab.gif') repeat-x left;
   }
