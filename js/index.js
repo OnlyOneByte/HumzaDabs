@@ -10,7 +10,7 @@ var
 
 
 
-let width = 350;
+let width = 390;
 let height = 100;
 let spacerFromTop = 80;
 var secondsPerDab = 1.4;
@@ -63,7 +63,7 @@ function redraw() {
     // get text
     context.fillStyle = "#000000";
     context.font = "26px Arial";
-    context.fillText("Welcome to Hamza Dabs!", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
+    context.fillText("Hamza's dabs are an artform.", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
     context.fillStyle = "#000000";
     context.font = "18px Arial";
     context.fillText("Number of dabs: " + numDabs, window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 75);
