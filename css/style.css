@@ -3,3 +3,8 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
+body {
+    background-image: url("../img/dab-cut.gif");
+    background-repeat: repeat;
+}

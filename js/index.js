@@ -12,7 +12,7 @@ var
 
 let width = 390;
 let height = 100;
-let spacerFromTop = 80;
+let spacerFromTop = 5;
 var secondsPerDab = 1.4;
 let numDabs = 0;
 
@@ -56,15 +56,15 @@ function initialize() {
 // border that resizes along with the browser window.
 function redraw() {
     // draw the filled in rect with text.
-    context.fillStyle = "#85B3E7";
+    context.fillStyle = "#292c2f";
     context.rect(window.innerWidth / 2 - width / 2, spacerFromTop, width, height);
     context.fill();
 
     // get text
-    context.fillStyle = "#000000";
+    context.fillStyle = "#8f9296";
     context.font = "26px Arial";
     context.fillText("Hamza's dabs are an artform.", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
-    context.fillStyle = "#000000";
+    context.fillStyle = "#8f9296";
     context.font = "18px Arial";
     context.fillText("Number of dabs: " + numDabs, window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 75);
 
