@@ -6,9 +6,6 @@ var
     context = htmlCanvas.getContext('2d');
 
 
-a
-
-
 
 let width = 390;
 let height = 100;
