@@ -6,7 +6,7 @@ var
     context = htmlCanvas.getContext('2d');
 
 
-
+a
 
 
 
@@ -63,7 +63,7 @@ function redraw() {
     // get text
     context.fillStyle = "#8f9296";
     context.font = "26px Arial";
-    context.fillText("Hamza's dabs are an artform.", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
+    context.fillText("Humza's dabs are an artform.", window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 35);
     context.fillStyle = "#8f9296";
     context.font = "18px Arial";
     context.fillText("Number of dabs: " + numDabs, window.innerWidth / 2 - width / 2 + 25, spacerFromTop + 75);
